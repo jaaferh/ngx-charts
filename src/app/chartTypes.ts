@@ -893,6 +893,38 @@ const chartGroups = [
           'maxXAxisTickLength',
           'maxYAxisTickLength'
         ]
+      },
+      {
+        name: 'Stacked Vertical Bar Chart Enhanced',
+        selector: 'bar-vertical-stacked-enhanced',
+        inputFormat: 'multiSeries',
+        options: [
+          'animations',
+          'colorScheme',
+          'schemeType',
+          'showXAxis',
+          'showYAxis',
+          'gradient',
+          'barPadding',
+          'noBarWhenZero',
+          'showLegend',
+          'legendTitle',
+          'legendPosition',
+          'showXAxisLabel',
+          'xAxisLabel',
+          'showYAxisLabel',
+          'yAxisLabel',
+          'showGridLines',
+          'roundDomains',
+          'tooltipDisabled',
+          'yScaleMax',
+          'showDataLabel',
+          'trimXAxisTicks',
+          'trimYAxisTicks',
+          'rotateXAxisTicks',
+          'maxXAxisTickLength',
+          'maxYAxisTickLength'
+        ]
       }
     ]
   }
