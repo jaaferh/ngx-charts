@@ -1,5 +1,5 @@
 {
-  "name": "ngx-charts",
+  "name": "@jaaferh/ngx-charts",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -18,7 +18,7 @@
     "e2e": "ng e2e",
     "predeploy": "npm run build:demo",
     "deploy": "angular-cli-ghpages --dir ./dist/ngx-charts --name=Swimlane --email=developer@swimlane.com",
-    "package": "run-s build:lib:prod copy-files",
+    "package": "run-s build:lib:prod",
     "prepublish:lib": "npm run package",
     "publish:lib": "npm publish ./dist/swimlane/ngx-charts",
     "prepack": "npm run package",
@@ -91,5 +91,6 @@
     "tslint-config-security": "^1.16.0",
     "tslint-config-swimlane": "^5.0.0",
     "typescript": "^3.9.7"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
